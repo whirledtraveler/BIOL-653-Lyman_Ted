@@ -12,7 +12,7 @@ This is formatted as
 
 ### This is a *word* in *italics* 
 
-**hrmmm** no changes showing on github web page^(bold ~~not~~ now showing - too many spaces)^
+**hrmmm** no changes showing on github web page *^(bold ~~not~~ now showing - too many spaces)^*
 
 
 And another  
