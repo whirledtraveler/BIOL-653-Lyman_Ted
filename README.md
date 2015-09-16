@@ -20,4 +20,4 @@ And another
 
 
 I created the repository on GitHub under my account and made the
-original #### README.md #### file within the GitHub webpage.  Once there, I issued a pull request in RStudio. I got an error and found that I needed to use term to authenticate to the github repository.  Once that was done, "pull" worked and I was able to edit the file in RStudio.  Got some odd errors when trying to commit the changes and while I am still not sure why, I had restart RStuio and then resolve a duplication conflict and recommit. 
+original *__README.md__* file within the GitHub webpage.  Once there, I issued a pull request in RStudio. I got an error and found that I needed to use term to authenticate to the github repository.  Once that was done, "pull" worked and I was able to edit the file in RStudio.  Got some odd errors when trying to commit the changes and while I am still not sure why, I had restart RStuio and then resolve a duplication conflict and recommit. 
