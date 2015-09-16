@@ -7,11 +7,12 @@ This is my original README.md file created in Github.
 > Editing The 
 > README.md File
 
-This is ## Header 2 ## 
+This is 
+## Header 2 ## 
 
 This is a *word* in *italics* 
 
-** hrmmm ** no changes showing on github web page
+** hrmmm ** no changes showing on github web page _(bold not showing?)_
 
 
 And another  
