@@ -13,6 +13,7 @@ This is a *word* in *italics*
 
 ** hrmmm ** no changes showing on github web page
 
+
 And another  
-~~and another~~  
-~~and another~~ 
+~~ and another ~~  
+~~ and another ~~ 
