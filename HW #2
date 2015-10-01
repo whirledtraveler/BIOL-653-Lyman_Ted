@@ -147,5 +147,15 @@ ggplot(data = gdp_df, aes(x = continent, y = lifeExp, color = continent)) +
 + scale_fill_discrete()
 ```
 
+## Plot 6 - use dplyr to calc summary stats  (copying text from dplr class and working from that)
+* # make sure "dplyr" reloads when restarting RStudio
+```{r}
+select(gapminder)
+tbl_df(gapminder)
+gapminder <- tbl_df(gapminder)
+group_by(gapminder)
 
+ggplot(data = gapminder, aes(x = lifeExp, y = , fill = continent)) +
+  geom_density(color = "black", alpha = 0.5)
+```
 
