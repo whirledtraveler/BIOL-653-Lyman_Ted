@@ -146,6 +146,7 @@ ggplot(data = gdp_df, aes(x = continent, y = lifeExp, color = continent)) +
   geom_boxplot() +  facet_wrap(~year) + theme(axis.text.x=element_text(angle=50, size=10, vjust=0.5))
 + scale_fill_discrete()
 ```
+# Part II
 
 ## Plot 6 - use dplyr to calc summary stats  (copying text from dplr class and working from that)
 * # make sure "dplyr" reloads when restarting RStudio
@@ -158,4 +159,18 @@ group_by(gapminder)
 ggplot(data = gapminder, aes(x = lifeExp, y = , fill = continent)) +
   geom_density(color = "black", alpha = 0.5)
 ```
+
+## Plot 7 - life expectancy in Asia
+
+```{r}
+a_data <- filter(gapminder, continent == "Asia")
+ggplot(data = a_data, aes(x = lifeExp, y = , color = continent, 
+                              fill = continent)) +
+  scale_fill_manual(values = c("green")) + 
+  geom_density(color = "black", alpha = 0.5) +
+  theme_minimal() + 
+  ggtitle("Life expectancy in Asia")
+```
+
+
 
